@@ -165,8 +165,12 @@ input.searchInput::placeholder {
 .navbar{
     width: 100%;
     justify-content: space-between;
+    top: 0;
+    position: sticky !important;
+    z-index: 999;
+    background-color: white;
 }
 .nav-container{
     margin: auto;
-    width: 90%;
+    width: 95%;
 }

@@ -56,7 +56,7 @@ var dataNav = [{
         card.classList.add("iconChange");
         card.classList.add("me-4");
         card.classList.add("pt-2");
-        card.innerHTML = ` <a href="#" class="nav-link text-center  p-0">
+        card.innerHTML = ` <a href="index.html?type=${item.name}" class="nav-link text-center  p-0">
         <div class=" d-flex align-items-center overflow-hidden changeWidth mx-auto">
             <img class="one iconHeight mx-2" src="../icon/${item.icon_1}" alt="Nike">
             <img class="two iconHeight mx-2" src="../icon/${item.icon_2}"
